@@ -12,4 +12,4 @@ i use binary research approch ,Binary search compares the target value to the mi
 
 ## Solution
 <!-- Embedded whiteboard image -->
-[UML](https://files.slack.com/files-pri/TNGRRLUMA-FSY1YJL64/img_20200121_235549.jpg)
+![UML]()
