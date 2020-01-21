@@ -14,4 +14,4 @@ i use sign to refer to the place where the value should add and create a new arr
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![UML]()
+![UML](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/blob/array-shift/assets/array-shift.jpg)
