@@ -12,4 +12,4 @@ i use binary research approch ,Binary search compares the target value to the mi
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![UML]()
+![UML](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/blob/array-binary-search/assets/array-binary-search.jpg)
