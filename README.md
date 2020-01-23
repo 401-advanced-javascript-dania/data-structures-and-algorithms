@@ -5,11 +5,19 @@ to write afunc then test it
 
 ## Challenge Description
 <!-- Description of the challenge -->
-to write a function that take an array and value as argument then if this value is in the array return the index of the value in the array if the value is not in the array return -1
+to write a function that take an number and it will return an array with numbers,the first and second number is fixed ,  start from third number is gonna be found  by adding up the two numbers before it.
+
+
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-i use binary research approch ,Binary search compares the target value to the middle element of the array. If they are not equal, the half in which the target cannot lie is eliminated and the search continues on the remaining half, again taking the middle element to compare to the target value, and repeating this until the target value is found. If the search ends with the remaining half being empty, the target is not in the array.
+i use Fibonacci Sequence approch ,The Fibonacci Sequence is the series of numbers:
 
+- 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
+
+- *The next number is found by adding up the two numbers before it.*
+
+- The 2 is found by adding the two numbers before it (1+1)
+- The 3 is found by adding the two numbers before it (1+2),And the 5 is (2+3),and so on!
 ## Solution
 <!-- Embedded whiteboard image -->
-![UML](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/blob/array-binary-search/assets/array-binary-search.jpg)
+![UML](
