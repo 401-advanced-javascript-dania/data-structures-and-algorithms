@@ -20,4 +20,4 @@ i use Fibonacci Sequence approch ,The Fibonacci Sequence is the series of number
 - The 3 is found by adding the two numbers before it (1+2),And the 5 is (2+3),and so on!
 ## Solution
 <!-- Embedded whiteboard image -->
-![UML](
+![UML](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/blob/fibonacci-sequence/assets/fibonacci-sequence.jpg)
