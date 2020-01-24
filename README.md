@@ -1,23 +1,23 @@
-# data-structures-and-algorithms
-# Challenge Summary
+# Singly Linked List
 <!-- Short summary or background information -->
-to write afunc then test it 
+create a linked list then create a method that do what supposed  to do then test it . 
 
-## Challenge Description
+## Challenge
 <!-- Description of the challenge -->
-to write a function that take an number and it will return an array with numbers,the first and second number is fixed ,  start from third number is gonna be found  by adding up the two numbers before it.
-
+1. create a node class 
+1. create a linked list class 
+1. Define a method called insert which takes any value as an argument and adds a new node with that value to the head of the list with an O(1) Time performance.
+1. Define a method called includes which takes any value as an argument and returns a boolean result depending on whether that value exists as a Node’s value somewhere within the list.
+1. Define a method called toString which takes in no arguments and returns a string representing all the values in the Linked List, formatted as:
+"{ a } -> { b } -> { c } -> NULL"
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-i use Fibonacci Sequence approch ,The Fibonacci Sequence is the series of numbers:
+the approach that i used is linked list approach
 
-- 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
-
-- *The next number is found by adding up the two numbers before it.*
-
-- The 2 is found by adding the two numbers before it (1+1)
-- The 3 is found by adding the two numbers before it (1+2),And the 5 is (2+3),and so on!
-## Solution
-<!-- Embedded whiteboard image -->
-![UML](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/blob/fibonacci-sequence/assets/fibonacci-sequence.jpg)
+## API
+<!-- Description of each method publicly available to your Linked List -->
+1. the first method called insert which takes any value as an argument and adds a new node with that value to the head of the list with an O(1) Time performance.
+1. the second method called includes which takes any value as an argument and returns a boolean result depending on whether that value exists as a Node’s value somewhere within the list.
+1. the third method called toString which takes in no arguments and returns a string representing all the values in the Linked List, formatted as:
+"{ a } -> { b } -> { c } -> NULL"
