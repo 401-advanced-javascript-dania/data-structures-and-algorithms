@@ -4,9 +4,7 @@ create a linked list then create a method that do what supposed  to do then test
 
 ## Challenge
 <!-- Description of the challenge -->
-1. append(value) which adds a new node with the given value to the end of the list
-1. insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
-1. insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
+1. Write a method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list.
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
@@ -14,6 +12,4 @@ the approach that i used is linked list approach
 
 ## API
 <!-- Description of each method publicly available to your Linked List -->
-1. the first method called  append(value) which adds a new node with the given value to the end of the list
-1. the second method called insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
-1. the third method called insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
+Write a method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list.
