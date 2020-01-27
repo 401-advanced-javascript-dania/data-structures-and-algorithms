@@ -6,16 +6,19 @@ describe('LL Module',()=>{
         expect(list.head).toBeNull();
 
     })
-    it('append',()=>{
+    it('insert',()=>{
 let list = new LL();
 let initialValue ='first value';
-list.append(initialValue);
+list.insert(initialValue);
 expect(list.head.value).toEqual(initialValue)
 expect(list.head.value.next).toBeAnObject;
 let nextValue ='second value';
-list.append(nextValue);
-// expect(list.head.value).toEqual(initialValue)
-// expect(list.head.value.next.value).toEqual(nextValue)
-
+console.log('list',list)
+    })
+    it ('includes',()=>{
+        let value='testValue';
+        let list = new LL();
+list.includes(value);
+expect(list.head.value).toEqual(value)
     })
 })

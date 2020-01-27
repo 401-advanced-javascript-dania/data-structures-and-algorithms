@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1579842058017" clover="3.2.0">
-  <project timestamp="1579842058017" name="All files">
-    <metrics statements="31" coveredstatements="29" conditionals="6" coveredconditionals="4" methods="5" coveredmethods="5" elements="42" coveredelements="38" complexity="0" loc="31" ncloc="31" packages="3" files="4" classes="4"/>
+<coverage generated="1580134545037" clover="3.2.0">
+  <project timestamp="1580134545038" name="All files">
+    <metrics statements="40" coveredstatements="37" conditionals="10" coveredconditionals="6" methods="6" coveredmethods="6" elements="56" coveredelements="49" complexity="0" loc="40" ncloc="40" packages="3" files="4" classes="4"/>
     <package name="FibonacciSequence">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="fibonacci-sequence.js" path="/mnt/c/Users/std21/ltuc/401/data-structures-and-algorithms/challenges/FibonacciSequence/fibonacci-sequence.js">
@@ -32,11 +32,11 @@
       </file>
     </package>
     <package name="linkedList">
-      <metrics statements="14" coveredstatements="13" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
+      <metrics statements="23" coveredstatements="21" conditionals="6" coveredconditionals="3" methods="4" coveredmethods="4"/>
       <file name="linked-list.js" path="/mnt/c/Users/std21/ltuc/401/data-structures-and-algorithms/challenges/linkedList/linked-list.js">
-        <metrics statements="11" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <metrics statements="20" coveredstatements="18" conditionals="6" coveredconditionals="3" methods="3" coveredmethods="3"/>
         <line num="2" count="1" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="10" count="1" type="stmt"/>
@@ -46,11 +46,20 @@
         <line num="16" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
       </file>
       <file name="node.js" path="/mnt/c/Users/std21/ltuc/401/data-structures-and-algorithms/challenges/linkedList/node.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
         <line num="8" count="2" type="stmt"/>
       </file>
     </package>
