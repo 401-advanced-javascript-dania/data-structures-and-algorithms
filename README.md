@@ -5,3 +5,4 @@
 3. [fibonacci-sequence](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/tree/fibonacci-sequence)
 4. [linked-list](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/tree/linked-list)
 5. [ll-insertions](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/tree/ll-insertions)
+6. [ll-kth-from-end](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/tree/ll-kth-from-end)
