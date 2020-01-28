@@ -8,6 +8,7 @@ class LinkedList {
         let node =new Node(value);
         if(!this.head){
             this.head= node;
+            return this
         }
         let currentNode =this.head;
         while(currentNode.next){
@@ -26,11 +27,22 @@ class LinkedList {
             if(currentNode.value === value){
                 currentNode = currentNode.next;
                 return true;
+            }else {
+                currentNode=currentNode.next
             }
-            return false;
         }
+        return false;
 
 
+    }
+    toString(){
+        let currentNode=this.head;
+        let string='';
+        while(currentNode){
+            string+=`${currentNode.value} -> `;
+            currentNode=currentNode.next;
+        }
+        return string+=`NULL`
     }
 }
 module.exports=LinkedList
