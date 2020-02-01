@@ -8,8 +8,7 @@ Write a function called mergeLists which takes two linked lists as arguments. Zi
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-the approach that i used is linked list approach
-
+Write a function called mergeLists which takes two linked lists as arguments. Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list. Try and keep additional space down to O(1). 
 ## Solution
 <!-- Description of each method publicly available to your Linked List -->
-Write a function called mergeLists which takes two linked lists as arguments. Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list. Try and keep additional space down to O(1). 
+[whiteboard]()
