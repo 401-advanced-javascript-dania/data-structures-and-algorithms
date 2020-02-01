@@ -1,16 +1,17 @@
-'use strict';
-let array=[1,2,3,4]
-let val =5;
-function insertShiftArray(arr,value){
 
-for(let i=0;i<arr.length;i++){
-    if(value.length === 1){
-        let middle=arr[Math.round((arr.length-1)/2)];
-        arr[arr.length-1]=value
+function insertShiftArray(array, value) {
+  let sign = Math.floor(array.length / 2);
+  let theNewArray = new Array(array.length + 1);
+  for (let i = 0; i <= sign; i++) {
+    if (i === sign) {
+      theNewArray[i] = value;
+    } else {
+      theNewArray[i] = array[i];
     }
-    // console.log(middle)
-// console.log(arr[i],value);
-
+  }
+  for (let j = sign; j <= array.length - 1; j++) {
+    theNewArray[j + 1] = array[j];
+  }
+  return theNewArray;
 }
-}
-console.log(insertShiftArray(array,val));
+module.exports = insertShiftArray ;

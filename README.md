@@ -13,7 +13,10 @@ create a linked list then create a method that do what supposed  to do then test
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-the approach that i used is linked list approach
+the approach that i used is linked list approach that have class format and while loop
+1.  insert() takes added new node to the list with an O(1) Time performance.
+1. includes() return true or fales with an O(1) Time performance.
+1. toString() return list as string formate with an O(1) Time performance.
 
 ## API
 <!-- Description of each method publicly available to your Linked List -->
