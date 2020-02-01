@@ -1,5 +1,5 @@
 
-const LL = require('../challenges/linkedList/linked-list.js');
+const LL = require('../challenges/LinkedList/linked-list.js');
 describe('LL Module',()=>{
   it ('constructor',()=>{
     let list = new LL();
