@@ -18,7 +18,7 @@ expect(list.head.next).toBeNull;
         let value='testValue';
         let list = new LL();
 list.includes(value);
-expect(list.head.value).toEqual(value)
+expect(list.head).toEqual(value)
     })
     it('toString()',()=>{
         let list = new LL();
@@ -26,7 +26,7 @@ let initialValue ='first value';
 list.insert(initialValue);
 let secondValue='second value';
 list.insert(secondValue);
-console.log('list',list.toString())
+// console.log('list****************',list.head.next.next)
 expect(list.head.value).toEqual(initialValue)
 expect(list.head.next).toBeAnObject;
 expect(list.toString()).toMatch('first value -> second value -> NULL');
