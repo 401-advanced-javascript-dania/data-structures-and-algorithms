@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1580245869292" clover="3.2.0">
-  <project timestamp="1580245869293" name="All files">
-    <metrics statements="53" coveredstatements="44" conditionals="12" coveredconditionals="8" methods="7" coveredmethods="7" elements="72" coveredelements="59" complexity="0" loc="53" ncloc="53" packages="3" files="4" classes="4"/>
+<coverage generated="1580586378406" clover="3.2.0">
+  <project timestamp="1580586378406" name="All files">
+    <metrics statements="63" coveredstatements="54" conditionals="14" coveredconditionals="10" methods="8" coveredmethods="8" elements="85" coveredelements="72" complexity="0" loc="63" ncloc="63" packages="4" files="5" classes="5"/>
     <package name="FibonacciSequence">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="fibonacci-sequence.js" path="/mnt/c/Users/std21/ltuc/401/data-structures-and-algorithms/challenges/FibonacciSequence/fibonacci-sequence.js">
@@ -29,6 +29,22 @@
         <line num="12" count="0" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="arrayShift">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="array-shift.js" path="/mnt/c/Users/std21/ltuc/401/data-structures-and-algorithms/challenges/arrayShift/array-shift.js">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
       </file>
     </package>
     <package name="linkedList">
