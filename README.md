@@ -13,6 +13,6 @@ create a linked list then create a method that do what supposed  to do then test
 1. append(value) Big O o(n)
 1. insertBefore(value, newVal)  Big O o(n-1)
 1. insertAfter(value, newVal)  Big O o(n)
-## API
+## Solution
 <!-- Description of each method publicly available to your Linked List -->
 [Whiteboard ](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/blob/ll-insertions/IMG_20200201_213129.jpg)
