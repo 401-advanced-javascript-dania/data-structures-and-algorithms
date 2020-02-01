@@ -11,4 +11,4 @@ Write a function called mergeLists which takes two linked lists as arguments. Zi
 Write a function called mergeLists which takes two linked lists as arguments. Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list. Try and keep additional space down to O(1). 
 ## Solution
 <!-- Description of each method publicly available to your Linked List -->
-[whiteboard]()
+[whiteboard](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/blob/ll-merge/IMG_20200201_233641.jpg)
