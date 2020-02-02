@@ -9,3 +9,4 @@
 8. [ll-merge](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/tree/ll-merge)
 9. [ll-reverse](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/tree/ll-reverse)
 10. [stack-and-queue](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/tree/stack-and-queue)
+11. [queue-with-stacks](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/tree/queue-with-stacks)
