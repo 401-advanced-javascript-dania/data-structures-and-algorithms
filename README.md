@@ -1,15 +1,14 @@
 # Challenge Summary
 <!-- Short summary or background information -->
-create a linked list then create a method that do what supposed  to do then test it . 
+Implement a Queue using two Stacks.
 
 ## Challenge Description
 <!-- Description of the challenge -->
-Write a function called mergeLists which takes two linked lists as arguments. Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list. Try and keep additional space down to O(1). 
-
+Create a brand new PseudoQueue class.this PseudoQueue class will implement our standard queue interface enqueue(value) and dequeue() but will internally only utilize 2 Stack objects.
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-the approach that i used is linked list approach
-
+The Big O of the methods is O(1)
+1. enqueue(value) which inserts value into the PseudoQueue, using a first-in, first-out approach.
+1. dequeue() which extracts a value from the PseudoQueue, using a first-in, first-out approach.
 ## Solution
-<!-- Description of each method publicly available to your Linked List -->
-Write a function called mergeLists which takes two linked lists as arguments. Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list. Try and keep additional space down to O(1). 
+<!-- Embedded whiteboard image -->
