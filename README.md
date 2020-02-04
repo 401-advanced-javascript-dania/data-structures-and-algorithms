@@ -10,3 +10,5 @@
 9. [ll-reverse](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/tree/ll-reverse)
 10. [stack-and-queue](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/tree/stack-and-queue)
 11. [queue-with-stacks](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/tree/queue-with-stacks)
+12. [fifo-animal-shelter](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/tree/fifo-animal-shelter)
+13. [multi-bracket-validation](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/tree/multi-bracket-validation)
