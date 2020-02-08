@@ -12,3 +12,4 @@ The Big O of the methods is O(1)
 1. dequeue() which extracts a value from the PseudoQueue, using a first-in, first-out approach.
 ## Solution
 <!-- Embedded whiteboard image -->
+[whiteboard ](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/blob/queue-with-stacks/IMG_20200209_012520.jpg)
