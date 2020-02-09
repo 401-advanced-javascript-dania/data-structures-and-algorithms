@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1580756145563" clover="3.2.0">
-  <project timestamp="1580756145563" name="All files">
-    <metrics statements="13" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="2" elements="20" coveredelements="8" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
-    <file name="queue-with-stacks.js" path="/mnt/c/Users/std21/ltuc/401/data-structures-and-algorithms/challenges/queueWithStacks/queue-with-stacks.js">
-      <metrics statements="13" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="2"/>
-      <line num="4" count="2" type="stmt"/>
-      <line num="5" count="2" type="stmt"/>
-      <line num="6" count="2" type="stmt"/>
-      <line num="10" count="4" type="stmt"/>
-      <line num="11" count="4" type="stmt"/>
-      <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="17" count="0" type="stmt"/>
-      <line num="19" count="0" type="stmt"/>
-      <line num="20" count="0" type="stmt"/>
-      <line num="21" count="0" type="stmt"/>
-      <line num="23" count="0" type="stmt"/>
-      <line num="26" count="1" type="stmt"/>
+<coverage generated="1581213647647" clover="3.2.0">
+  <project timestamp="1581213647648" name="All files">
+    <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1" elements="23" coveredelements="23" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
+    <file name="multi-bracket-validation.js" path="/mnt/c/Users/std21/ltuc/401/data-structures-and-algorithms/challenges/multiBracketValidation/multi-bracket-validation.js">
+      <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <line num="3" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="8" count="6" type="stmt"/>
+      <line num="9" count="6" type="stmt"/>
+      <line num="10" count="6" type="stmt"/>
+      <line num="11" count="6" type="stmt"/>
+      <line num="12" count="26" type="stmt"/>
+      <line num="13" count="26" type="cond" truecount="2" falsecount="0"/>
+      <line num="14" count="12" type="stmt"/>
+      <line num="15" count="12" type="cond" truecount="4" falsecount="0"/>
+      <line num="16" count="3" type="stmt"/>
+      <line num="19" count="14" type="stmt"/>
+      <line num="21" count="3" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

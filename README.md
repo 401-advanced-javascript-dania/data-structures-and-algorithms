@@ -1,14 +1,22 @@
 # Challenge Summary
 <!-- Short summary or background information -->
-Implement a Queue using two Stacks.
+ function should take a string as its only argument, and should return a boolean representing whether or not the brackets in the string are balanced
 
 ## Challenge Description
 <!-- Description of the challenge -->
-Create a brand new PseudoQueue class.this PseudoQueue class will implement our standard queue interface enqueue(value) and dequeue() but will internally only utilize 2 Stack objects.
+function should take a string as its only argument, and should return a boolean representing whether or not the brackets in the string are balanced. 
+
+There are 3 types of brackets:
+
+- Round Brackets : ()
+- Square Brackets : []
+- Curly Brackets : {}
+* input {}	should TRUE
+* input {}(){}	should TRUE
+* input (](	should FALSE
+* input {(})	should FALSE
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-The Big O of the methods is O(1)
-1. enqueue(value) which inserts value into the PseudoQueue, using a first-in, first-out approach.
-1. dequeue() which extracts a value from the PseudoQueue, using a first-in, first-out approach.
+The Big o for multiBracketValidation function is O(n)
 ## Solution
 <!-- Embedded whiteboard image -->
