@@ -20,3 +20,4 @@ There are 3 types of brackets:
 The Big o for multiBracketValidation function is O(n)
 ## Solution
 <!-- Embedded whiteboard image -->
+[whiteboard](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/blob/multi-bracket-validation/IMG_20200209_035744.jpg)
