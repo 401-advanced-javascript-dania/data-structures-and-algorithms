@@ -86,9 +86,19 @@ describe('Binary Search Tree',()=>{
     console.log('************',tree.preOrder());
     expect(tree.preOrder()).toEqual([ 4, 1, 2, 3, 5, 6, 7 ]);
     expect(tree.preOrder().length).toEqual(7);
+  });
+  it('Can successfullyreturns a boolean indicating whether or not the value is in the tree at least once.',()=>{
+    const tree = new BST(null);
+    tree.add(4);
+    tree.add(1);
+    tree.add(2);
+    tree.add(3);
+    tree.add(5);
+    tree.add(6);
+    tree.add(7);
+    console.log('************',tree.preOrder());
     expect(tree.contains(6)).toEqual(true);
     expect(tree.contains(1)).toEqual(true);
     expect(tree.contains(8)).toEqual(false);
-
   });
 });
