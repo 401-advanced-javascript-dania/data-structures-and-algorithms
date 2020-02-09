@@ -16,3 +16,4 @@ The Big O of dequeue is O(1)
 
 ## Solution
 <!-- Embedded whiteboard image -->
+[whiteboard](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/blob/fifo-animal-shelter/IMG_20200209_024620.jpg)
