@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1581207631032" clover="3.2.0">
-  <project timestamp="1581207631032" name="All files">
+<coverage generated="1581208268880" clover="3.2.0">
+  <project timestamp="1581208268881" name="All files">
     <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3" elements="26" coveredelements="26" complexity="0" loc="15" ncloc="15" packages="1" files="1" classes="1"/>
     <file name="fifo-animal-shelter.js" path="/mnt/c/Users/std21/ltuc/401/data-structures-and-algorithms/challenges/fifoAnimalShelter/fifo-animal-shelter.js">
       <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>

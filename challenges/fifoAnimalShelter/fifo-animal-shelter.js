@@ -4,11 +4,11 @@ class AnimalShelter {
     this.dogData = [];
     this.catData = [];
   }
-  enqueue(value){
-    if(value.type === 'dog'){
-      this.dogData.unshift(value);
-    }else if (value.type === 'cat'){
-      this.catData.unshift(value);
+  enqueue(animal){
+    if(animal.type === 'dog'){
+      this.dogData.unshift(animal);
+    }else if (animal.type === 'cat'){
+      this.catData.unshift(animal);
     }else {
       return null;
     }}
