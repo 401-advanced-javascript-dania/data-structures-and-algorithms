@@ -24,7 +24,7 @@ Define a method for each of the depth first traversals called preOrder(), inOrde
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 - Big O for preOrder(), inOrder(), and postOrder() is O(n)
-- Big O for add(), contains() is o(log(n))
+- Big O for add(), contains() is O(log(n))
 
 
 ## API
@@ -35,4 +35,4 @@ Define a method for each of the depth first traversals called preOrder(), inOrde
 - Create a BinarySearchTree class
 1. Define a method named add() that accepts a value, and adds a new node with that value in the correct location in the binary search tree.
 1. Define a method named contains() that accepts a value, and returns a boolean indicating whether or not the value is in the tree at least once.
-- Big O for add(), contains() is o(log(n))
+- Big O for add(), contains() is O(log(n))
