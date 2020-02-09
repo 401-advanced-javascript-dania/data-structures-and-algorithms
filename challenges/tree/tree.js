@@ -44,4 +44,44 @@ _read(this.root)
 return data;
     }
 }
-module.exports={Node,BT}
+class BST extends BT{
+  
+  add(value){
+    if(this.root === null){return this.root = new Node(value)}
+    this._insert(value,this.root)
+  }  
+  _insert(value,upperNode){
+if(value >upperNode.value){
+    if(upperNode.rightChild === null){
+      return  upperNode.rightChild = new Node(value)
+    }else{
+return this._insert(value,upperNode.rightChild)
+    }
+}
+if(value <= upperNode.value){
+    if(upperNode.leftChild === null){
+      return  upperNode.leftChild = new Node(value)
+    }else{
+return this._insert(value,upperNode.leftChild)
+    }
+}
+  }
+
+    
+    contains(value){
+return this._search(value,this.root)
+    }
+    _search(value,upperNode){
+        if(upperNode === null){return false; }
+        if(upperNode.value === value){
+            return true;
+        }else if(upperNode.value<value){
+            return this._search(value,upperNode.rightChild);
+        }else if(upperNode.value>=value){
+            return this._search(value,upperNode.leftChild)
+        }
+    }
+}
+
+
+module.exports={Node,BT,BST}
