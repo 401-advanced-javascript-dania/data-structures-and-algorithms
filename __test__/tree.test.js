@@ -1,5 +1,5 @@
 'use strict';
-const {Node,BT}=require('../challenges/tree/tree.js');
+const {Node,BT,BST}=require('../challenges/tree/tree.js');
 describe('Binary Tree',()=>{
    it('Can successfully instantiate an empty tree',()=>{
     let tree = null;
@@ -34,6 +34,7 @@ expect(typeof(tree.root)).toEqual('object')
 expect(tree.root.value).toEqual(1)
    })
 })
+
 describe('Binary Tree Methode',()=>{
     let tree = null;
     beforeEach(()=>{
@@ -70,5 +71,24 @@ describe('Binary Tree Methode',()=>{
         // [ 4, 2, 3, 7, 5, 6, 1 ]
         expect(tree.postOrder()).toEqual([ 4, 2, 3, 7, 5, 6, 1 ]);
         expect(tree.postOrder().length).toEqual(7);
+    })
+})
+describe('Binary Search Tree',()=>{
+    it('Can successfully adds a value, that value in the correct location in the binary search tree',()=>{
+        const tree = new BST(null);
+        tree.add(4);
+        tree.add(1); 
+        tree.add(2); 
+        tree.add(3); 
+        tree.add(5); 
+        tree.add(6);
+        tree.add(7);
+        console.log('************',tree.preOrder())
+        expect(tree.preOrder()).toEqual([ 4, 1, 2, 3, 5, 6, 7 ]);
+        expect(tree.preOrder().length).toEqual(7);
+        expect(tree.contains(6)).toEqual(true);
+        expect(tree.contains(1)).toEqual(true);
+        expect(tree.contains(8)).toEqual(false);
+
     })
 })
