@@ -18,3 +18,4 @@ The Big O for FizzBuzzTree O(log(n))
 
 ## Solution
 <!-- Embedded whiteboard image -->
+[whiteboard](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/blob/fizzBuzzTree/IMG_20200210_020511.jpg)
