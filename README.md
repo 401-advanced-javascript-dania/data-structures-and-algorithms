@@ -12,4 +12,4 @@ Review the pseudocode , then trace the algorithm by stepping through the process
 
 ## Solution
 <!-- Embedded whiteboard image -->
-[blog article]().
+[blog article](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/blob/insertionSort/IMG_20200223_163151.jpg).
