@@ -12,4 +12,4 @@ The Big O is o(n)
 
 ## Solution
 <!-- Embedded whiteboard image -->
-[whiteboard]()
+[whiteboard](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/blob/findMax/IMG_20200228_235953.jpg)
