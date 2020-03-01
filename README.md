@@ -1,19 +1,14 @@
 # Challenge Summary
 <!-- Short summary or background information -->
-Implement a Hashtable
+Find the first repeated word in a book.
 ## Challenge Description
 <!-- Description of the challenge -->
-Implement a Hashtable with the following methods:
-
-1. add: takes in both the key and value. This method should hash the key, and add the key and value pair to the table, handling collisions as needed.
-1. get: takes in the key and returns the value from the table.
-1. contains: takes in the key and returns a boolean, indicating if the key exists in the table already.
-1. hash: takes in an arbitrary key and returns an index in the collection.
+Write a function that accepts a lengthy string parameter. Without utilizing any of the built-in library methods, return the first word to occur more than once in that provided string.
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-- The Big O is o(1) for Time Complexity for all methods.
-- The Big O is o(n) for Space Complexity for all methods.
+- The Big O is O(n^2) for Time Complexity 
+- The Big O is O(n) for Space Complexity 
 
 
 ## Solution
