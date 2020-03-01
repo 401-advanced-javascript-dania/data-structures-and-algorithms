@@ -13,4 +13,4 @@ Write a function that accepts a lengthy string parameter. Without utilizing any 
 
 ## Solution
 <!-- Embedded whiteboard image -->
-[whiteboard]()
+[whiteboard](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/blob/repeated-word/IMG_20200302_001203.jpg)
