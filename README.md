@@ -13,4 +13,4 @@ Write a function called tree_intersection that takes two binary tree parameters.
 
 ## Solution
 <!-- Embedded whiteboard image -->
-[whiteboard]()
+[whiteboard](https://github.com/401-advanced-javascript-dania/data-structures-and-algorithms/blob/tree-intersection/IMG_20200302_154553.jpg)
