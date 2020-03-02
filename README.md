@@ -1,14 +1,14 @@
 # Challenge Summary
 <!-- Short summary or background information -->
-Find the first repeated word in a book.
+Find common values in 2 binary trees.
 ## Challenge Description
 <!-- Description of the challenge -->
-Write a function that accepts a lengthy string parameter. Without utilizing any of the built-in library methods, return the first word to occur more than once in that provided string.
+Write a function called tree_intersection that takes two binary tree parameters. Without utilizing any of the built-in library methods, return a set of values found in both trees.
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-- The Big O is O(n^2) for Time Complexity 
-- The Big O is O(n) for Space Complexity 
+- The Big O is o(n) for Time Complexity 
+- The Big O is o(n) for Space Complexity 
 
 
 ## Solution
